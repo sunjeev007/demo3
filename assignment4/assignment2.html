@@ -1,0 +1,70 @@
+
+<!-- 
+    Name: Sangeev Thapa Magar
+    Date: 04/07/2020
+    Subject: CS 355 (Advanced Web Programming)
+    Assignment 4: PHP and MySQL 
+-->
+<!-- 
+    Name: Sangeev Thapa Magar
+    Date: 04/07/2020
+    Subject: CS 355 (Advanced Web Programming)
+    Assignment 4: PHP and MySQL 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assignment.css">
+    <!-- Title of the page-->
+    <title>Filtering the list according to the least price</title>
+</head>
+<body>
+    <header>
+        <h1>Filter the Dishes </h1>
+    </header>
+    <center>
+    <main>
+        <form action="." method="POST">
+            <label for="price">Enter a min price for the dish: </label><br>
+            <input type="number" name="min_price"><br><br>
+            <button type="submit" value="search">Search</button>
+        </form>
+
+        <section>
+            <!--Display the results in the table-->
+            <h2>Dishes with the minimum price of $2 are:</h2>
+            
+            <table>
+                <tr>
+                    <th><u>Name of the dish</u></th>
+                    <th class="right"><u>Price</u></th>
+                </tr>
+
+                        <tr>
+                <td>Cashew Nuts and White Mushrooms</td>
+                <td class="right">$4.95</td>
+            </tr>
+                        <tr>
+                <td>Dried Mulberries</td>
+                <td class="right">$3.00</td>
+            </tr>
+                        <tr>
+                <td>Eggplant with Chili Sauce</td>
+                <td class="right">$6.50</td>
+            </tr>
+                        <tr>
+                <td>General Tso's Chicken</td>
+                <td class="right">$5.50</td>
+            </tr>
+                    </table>
+        </section>
+    </main></center>
+
+    <footer>
+    <p>&copy; 2020 Food Finder, Inc.</p>
+    </footer>
+</body>
+</html>
